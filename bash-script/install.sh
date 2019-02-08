@@ -1,4 +1,5 @@
 # installation for ubuntu only
+#!/bin/bash
 echo `sudo apt update && sudo apt upgrade`;
 echo 'sudo apt install python3';
 echo `sudo apt install python-pip3`;
