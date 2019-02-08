@@ -1,2 +1,1 @@
-# vast-hackathon-privacy-site_benchmarker
-The application is a tool for benchmarking the security of a website.
+# vast-hackathon-social_wellbring-additiction_remover
