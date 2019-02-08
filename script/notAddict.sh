@@ -2,7 +2,6 @@ current_time=`date +%H%M%S`;
 end_time=$((current_time+$1));
 alarm_time=$((end_time-$2));
 new_end_time=$((end_time+10));
-connectionPort=$3;
 
 i=$current_time;
 while [ $i -lt $end_time ]
@@ -18,9 +17,12 @@ do
 done
 echo "Time out";
 
-i=0;
-while [ $i -lt 3 ]
-do
-	echo `tcset $((connectionPort)) --rate 100Kbps --delay 100ms --loss 0.1% --overwrite`;
-	sleep 5s;
-done
+echo `tcset wlp3s0 --rate 100Kbps --overwrite`;
+echo "We have cut your bandwidth."
+sleep 5s;
+echo `tcset wlp3s0 --delay 10sec --overwrite`;
+echo "We have increased the delay."
+sleep 5s;
+echo 'tcset wlp3s0 --loss 15%';
+echo "we have increased the packet loss."
+echo "The internet has now just worthless. You should really quit the program."
