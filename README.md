@@ -20,5 +20,8 @@ This application is available as:-
     ```bash
     $ ./notAddict.sh
     ```
-2. For installing in Chrome.
-    1. 
+2. For installing in Chrome/Chromium.
+    1. Goto chrome://extensions/
+    2. Click 'load unpacked' and goto repo location.
+    3. From repo location, goto /chrome-extension.
+    4. Load the extension.
