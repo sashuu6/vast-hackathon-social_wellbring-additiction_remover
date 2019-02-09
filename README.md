@@ -32,8 +32,14 @@ This application is available as:-
 
 # Usage
 
-##For script
+## For script
 
 ```bash
 $ sudo ./notAddict time_in_seconds seconds_before_time_for_alarm
 ```
+
+# Contributors
+
+1. [Sashwat K](https://www.sashwat.in)
+2. Alfin William
+3. Jishnu M
