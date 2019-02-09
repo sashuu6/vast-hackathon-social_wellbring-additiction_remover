@@ -1,4 +1,4 @@
-current_time=`date +%H%M%S`;
+current_time=`date +%M%S`;
 end_time=$((current_time+$1));
 alarm_time=$((end_time-$2));
 new_end_time=$((end_time+10));
