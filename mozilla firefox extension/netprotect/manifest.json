@@ -1,0 +1,30 @@
+{
+	"manifest_version": 2 ,
+	"name": "Net Protect - Web Utility to regulate internet usage" ,
+	"version": "1.0",
+
+	"description": "Regulates excess internet usage effectively!",
+
+	"icons": {
+		"48": "icons/netprotect48.png",
+		"96": "icons/netprotect96.png"
+	},
+
+	"browser_action":{
+		"browser_style":true,
+		"default_icon": {
+			"16" : "button/netprotect16.png",
+			"32" : "button/netprotect32.png"
+		},
+		"default-popup": "body.html"
+	},
+
+
+
+	"content_scripts": [
+		{
+			"matches" : ["*://*.mozilla.org/*"],
+			"js" : ["netprotect.js"]
+		}
+    ]
+}
