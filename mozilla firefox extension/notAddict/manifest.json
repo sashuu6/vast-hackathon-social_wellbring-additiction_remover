@@ -16,7 +16,7 @@
 			"16" : "button/netprotect16.png",
 			"32" : "button/netprotect32.png"
 		},
-		"default-popup": "body.html"
+		"default_popup": "body.html"
 	},
 
 
