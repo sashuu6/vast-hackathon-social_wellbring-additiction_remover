@@ -15,3 +15,10 @@ This application is available as:-
     ```bash
     $ ./install.sh
     ```
+    4. Goto ~/ to the code's source.
+    5. To run the code.
+    ```bash
+    $ ./notAddict.sh
+    ```
+2. For installing in Chrome.
+    1. 
