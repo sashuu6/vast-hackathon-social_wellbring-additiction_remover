@@ -29,3 +29,11 @@ This application is available as:-
     1. Goto about:addons
     2. Click gear icon and click Install add-on from file and select the firefox-extension folder.
     3. Load the addon.
+
+# Usage
+
+##For script
+
+```bash
+$ sudo ./notAddict time_in_seconds seconds_before_time_for_alarm
+```
