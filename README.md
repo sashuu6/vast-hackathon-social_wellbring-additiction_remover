@@ -25,3 +25,7 @@ This application is available as:-
     2. Click 'load unpacked' and goto repo location.
     3. From repo location, goto /chrome-extension.
     4. Load the extension.
+3. For installing in Firefox.
+    1. Goto about:addons
+    2. Click gear icon and click Install add-on from file and select the firefox-extension folder.
+    3. Load the addon.
