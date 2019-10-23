@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "T-rex Jump",
+  "version": "1.0",
+  "description": "Show a page action that starts the online T-rex game.",
+  "homepage_url": "https://thenextweb.com/dd/2018/09/07/4-years-later-google-finally-explains-the-origins-of-its-chrome-dinosaur-game/",
+  "icons": {
+    "48": "icons/trex-48.png"
+  },
+
+  "permissions": [
+    "alarms",
+    "tabs"
+  ],
+
+  "page_action": {
+    "default_icon": "icons/trex-32.png",
+    "default_title": "T-rex Jump"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  }
+
+}
